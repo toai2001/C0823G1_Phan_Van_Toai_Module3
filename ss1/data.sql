@@ -2,11 +2,11 @@ create database ss1;
 use ss1;
 
 
-create table  book_management(
-id int key auto_increment,
-name varchar(45),
-page_size int,
-author varchar (45)
+CREATE TABLE book_management (
+    id INT KEY AUTO_INCREMENT,
+    name VARCHAR(45),
+    page_size INT,
+    author VARCHAR(45)
 );
 
 insert into book_management(name,page_size,author) value('Toán',45,'Nguyễn Thái Học'),
@@ -20,9 +20,7 @@ where name = 'Sử';
 
 delete from book_management
 where id = 5;
-
 drop table book_management;
-
 drop database ss1;
 
                                                     
