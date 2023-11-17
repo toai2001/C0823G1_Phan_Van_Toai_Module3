@@ -166,8 +166,7 @@ JOIN borrows br ON b.books_id = br.books_id;
 
 -- - Viết 1 stored procedure thêm mới book trong database với tham số kiểu IN
 delimiter //
-
-create procedure books_procedure( title varchar(50), page_size int, authors_id int, category_id int)
+create procedure books_procedure( titlebooks_procedure varchar(50), page_size int, authors_id int, category_id int)
    begin 
    insert into books (books_tile, books_page_size, authors_id, category_id)
    values(books_tile, books_page_size, authors_id, category_id);
