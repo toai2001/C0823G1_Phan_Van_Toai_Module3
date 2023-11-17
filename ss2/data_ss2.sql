@@ -107,3 +107,72 @@ join borrows b on books.books_id = b.books_id
 group by b.books_id
 order by so_luong desc
 limit 2;
+
+
+-- - Thông kê các đầu sách được mượn nhiều nhất
+SELECT 
+    b.books_tile, COUNT(b.books_id) AS max
+FROM
+    books b
+        JOIN
+    borrows br ON b.books_id = br.books_id
+GROUP BY b.books_id
+HAVING max IN (SELECT 
+        MAX(max)
+    FROM
+        (SELECT 
+            COUNT(b.books_id) AS max, b.books_tile
+        FROM
+            books b
+        JOIN borrows br ON b.books_id = br.books_id
+        GROUP BY b.books_id) AS so_luong);
+
+-- - Thông kê các đầu sách chưa được mượn
+
+SELECT books_id,books_tile
+FROM books
+WHERE books_id NOT IN (SELECT books.books_id
+FROM books
+JOIN borrows br ON books.books_id = br.books_id);
+
+-- Lấy ra danh sách các học viên đã từng mượn sách và sắp xếp  theo số lượng mượn sách từ lớn đến nhỏ
+SELECT s.studens_name,COUNT(s.studens_id) AS so_luong 
+FROM studens s
+JOIN borrows b ON s.studens_id = b.studens_id
+GROUP BY s.studens_id
+ORDER BY so_luong DESC;
+
+--  Lấy ra các học viên mượn sách nhiều nhất của thư viện
+SELECT s.studens_name,COUNT(s.studens_id) AS so_luong 
+FROM studens s
+JOIN borrows b ON s.studens_id = b.studens_id
+GROUP BY s.studens_id
+HAVING so_luong IN (
+SELECT MAX(so_luong) 
+FROM (SELECT s.studens_name,COUNT(s.studens_id) AS so_luong 
+FROM studens s
+JOIN borrows b ON s.studens_id = b.studens_id
+GROUP BY s.studens_id) bt
+);
+
+-- - Tao index cho cột  title của bảng books
+create index books_title on books(books_tile);
+
+--  Tạo 1 view để lấy ra danh sách các quyển sách đã được mượn, có hiển thị thêm cột số lần đã được mượn
+CREATE VIEW books_view AS
+SELECT b.books_tile,COUNT(b.books_id) AS so_luong
+FROM books b
+JOIN borrows br ON b.books_id = br.books_id;
+
+-- - Viết 1 stored procedure thêm mới book trong database với tham số kiểu IN
+delimiter //
+
+create procedure books_procedure( title varchar(50), page_size int, authors_id int, category_id int)
+   begin 
+   insert into books (books_tile, books_page_size, authors_id, category_id)
+   values(books_tile, books_page_size, authors_id, category_id);
+   end // 
+  delimiter ;
+  
+call books_procedure ('sinh', 50, 2,1);
+
