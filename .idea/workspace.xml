@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2ec48b1-adf5-477d-b916-e1fafb2fc4b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/introduceService.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/introductionStore.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/mainHome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/include/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/include/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/sign-up.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/users/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/bt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/bt1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/C0823G1_Phan_Van_Toai_Module3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C0823G1_Phan_Van_Toai_Module3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study1/database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_nhom/database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss2/data_ss2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/data_ss2.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2YII4koZOhxYhpbSJQbiHXsETSW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2ec48b1-adf5-477d-b916-e1fafb2fc4b3" name="Changes" comment="" />
+      <created>1700206478007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700206478007</updated>
+      <workItem from="1700206479037" duration="660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

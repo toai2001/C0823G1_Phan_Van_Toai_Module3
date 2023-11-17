@@ -17,8 +17,8 @@ CREATE TABLE books (
     books_id INT KEY AUTO_INCREMENT,
     books_tile VARCHAR(45),
     books_page_size INT,
-    category_id INT,
-    authors_id INT,
+    category_id INT unique,
+    authors_id INT unique,
     FOREIGN KEY (authors_id)
         REFERENCES authors (authors_id),
     FOREIGN KEY (category_id)
@@ -34,8 +34,8 @@ CREATE TABLE studens (
 
 CREATE TABLE borrows (
     borrows_id INT KEY AUTO_INCREMENT,
-    studens_id INT,
-    books_id INT,
+    studens_id INT unique,
+    books_id INT unique,
     borrows_date DATE,
     borrows_return_date DATE,
     FOREIGN KEY (studens_id)

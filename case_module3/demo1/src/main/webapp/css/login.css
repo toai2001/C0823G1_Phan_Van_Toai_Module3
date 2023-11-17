@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.header {
+    background-color: #721799;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.log-in a {
+    color: white;
+}
+
+.log-in a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar-nav li {
+    margin: 0 10vh;
+    padding: 0;
+}
+
+.navbar-nav li:hover {
+    background-color: #b8c7d0;
+}
+
+.navbar-nav li:hover a {
+    color: #721799;
+}
+
+.container h3 {
+    padding: 1%;
+    color: #074091;
+}
+
+button{
+    border-radius: 10px;
+}
+
+.btn-create-search{
+    width: 100px;
+    margin: 0 10vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("https://img.freepik.com/premium-photo/grunge-blue-wall-background-texture_196038-14809.jpg?w=740");
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 637px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+
+}
+
+.forget label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.wrapper .active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wrapper .active-popup {
+    pointer-events: none;
+}
+
+.signup-form,
+.login-form {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnLogin-popup {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-link,
+.register-link {
+    display: inline-block;
+    margin: 10px 20px;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("https://img.freepik.com/premium-photo/grunge-blue-wall-background-texture_196038-14809.jpg?w=740");
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 558px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input{
+    margin-right: 3px;
+
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+html {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.header {
+    background-color: #721799;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.log-in a {
+    color: white;
+}
+
+.log-in a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar-nav li {
+    margin: 0 10vh;
+    padding: 0;
+}
+
+.navbar-nav li:hover {
+    background-color: #b8c7d0;
+}
+
+.navbar-nav li:hover a {
+    color: #721799;
+}
+
+.container h3 {
+    padding: 1%;
+    color: #074091;
+}
+
+button {
+    border-radius: 10px;
+}
+
+.btn-create-search {
+    width: 100px;
+    margin: 0 10vh;
+}
+
+
+html {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.header {
+    background-color: #721799;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.log-in a {
+    color: white;
+}
+
+.log-in a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar-nav li {
+    margin: 0 10vh;
+    padding: 0;
+}
+
+.navbar-nav li:hover {
+    background-color: #b8c7d0;
+}
+
+.navbar-nav li:hover a {
+    color: #721799;
+}
+
+.container h3 {
+    padding: 1%;
+    color: #074091;
+}
+
+button{
+    border-radius: 10px;
+}
+
+.btn-create-search{
+    width: 100px;
+    margin: 0 10vh;
+}
+
+
+.signup .card {
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.signup .card-header {
+    background-color: #f4f4f4;
+    border-bottom: none;
+    padding: 2rem;
+}
+
+.signup .card-body {
+    padding: 2rem;
+}
+
+.signup .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.signup .form-control {
+    border-radius: 0;
+    border: 2px solid #e6e6e6;
+}
+
+.signup .btn {
+    border-radius: 0;
+    background-color: #007bff;
+    border: none;
+}
+
+.signup .btn:hover {
+    background-color: #0069d9;
+}
+.signup span.input-group-text {
+    background: unset;
+    border: unset;
+}
+
+.signup .input-group-prepend {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    display: flex;
+}
+
+.log-in {
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.log-in a {
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    right: 0;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f9fa;
+}
+
+.show + .dropdown-menu {
+    display: block;
+}
