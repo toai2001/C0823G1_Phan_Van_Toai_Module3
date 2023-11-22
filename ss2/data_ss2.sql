@@ -112,34 +112,25 @@ limit 2;
 
 
 -- - Thông kê các đầu sách được mượn nhiều nhất
--- SELECT 
---     b.books_tile, COUNT(b.books_id) AS max_borrow
--- FROM
---     books b
---         JOIN
---     borrows br ON b.books_id = br.books_id
--- GROUP BY b.books_id
--- HAVING max IN (SELECT 
---         MAX(max)
---     FROM
---         (SELECT 
---             COUNT(b.books_id) AS max, b.books_tile
---         FROM
---             books b
---         JOIN borrows br ON b.books_id = br.books_id
---         GROUP BY b.books_id) AS so_luong);
+SELECT 
+    b.books_tile, COUNT(b.books_id) AS max_borrow
+FROM
+    books b
+        JOIN
+    borrows br ON b.books_id = br.books_id
+GROUP BY b.books_id
+HAVING max IN (SELECT 
+        MAX(max)
+    FROM
+        (SELECT 
+            COUNT(b.books_id) AS max, b.books_tile
+        FROM
+            books b
+        JOIN borrows br ON b.books_id = br.books_id
+        GROUP BY b.books_id) AS so_luong);
         
         
-select books_tile ,count(borrows.books_id) as so_luong
-from books
-join borrows  on books.books_id = borrows.books_id
-group by borrows.books_id
-having so_luong in (select
-max(so_luong)
-from  ( select count(borrows.books_id) as so_luong,books.books_tile
-from books
-join borrows on books.books_id = borrows.books_id
-group by borrows.books_id) as bt);
+
 
 -- - Thông kê các đầu sách chưa được mượn
 
