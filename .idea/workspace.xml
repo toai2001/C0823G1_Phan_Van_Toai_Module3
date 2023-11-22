@@ -5,29 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2ec48b1-adf5-477d-b916-e1fafb2fc4b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/introduceService.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/introductionStore.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/mainHome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/include/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/include/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/sign-up.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/users/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/bt1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7/bt1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/C0823G1_Phan_Van_Toai_Module3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C0823G1_Phan_Van_Toai_Module3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study1/database.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_nhom/database.sql" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/baitap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/case1/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/introduceService.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/introductionStore.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/mainHome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/include/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/include/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/sign-up.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/users/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study1/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/case_study1/database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss2/data_ss2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/data_ss2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7/bt1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/bt1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +68,9 @@
       <option name="presentableId" value="Default" />
       <updated>1700206478007</updated>
       <workItem from="1700206479037" duration="660000" />
+      <workItem from="1700207186094" duration="597000" />
+      <workItem from="1700212479753" duration="602000" />
+      <workItem from="1700449578215" duration="6372000" />
     </task>
     <servers />
   </component>
