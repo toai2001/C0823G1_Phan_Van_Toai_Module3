@@ -5,26 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2ec48b1-adf5-477d-b916-e1fafb2fc4b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss8/baitap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10/bai1/src/main/java/com/example/bai1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/.idea/ss9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/bai1/src/main/java/com/example/bai1/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/bai1/src/main/webapp/succes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/case1/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/introduceService.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/introductionStore.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/mainHome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/navbar.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/home/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/include/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/include/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/sign-up.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/users/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study1/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/case_study1/database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2/data_ss2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/data_ss2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/java/com/example/case1/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/introduceService.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/introductionStore.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/mainHome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/home/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/include/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/include/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/sign-up.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_module3/case1/src/main/webapp/users/home.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss7/bt1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/bt1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/bai1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/bai1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/bai1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/bai1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/bai1/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +93,8 @@
       <workItem from="1700207186094" duration="597000" />
       <workItem from="1700212479753" duration="602000" />
       <workItem from="1700449578215" duration="6372000" />
+      <workItem from="1701145501180" duration="113000" />
+      <workItem from="1701240785693" duration="6488000" />
     </task>
     <servers />
   </component>
