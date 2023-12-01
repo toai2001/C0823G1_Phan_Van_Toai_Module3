@@ -4,12 +4,12 @@ public class Student {
     private  int id;
     private   String name ;
     private String gender;
-    private String point;
+    private Double point;
 
     public Student() {
     }
 
-    public Student(int id, String name, String gender, String point) {
+    public Student(int id, String name, String gender, Double point) {
         this.id = id;
         this.name = name;
         this.gender = gender;
@@ -40,11 +40,11 @@ public class Student {
         this.gender = gender;
     }
 
-    public String getPoint() {
+    public Double getPoint() {
         return point;
     }
 
-    public void setPoint(String point) {
+    public void setPoint(Double point) {
         this.point = point;
     }
 }
