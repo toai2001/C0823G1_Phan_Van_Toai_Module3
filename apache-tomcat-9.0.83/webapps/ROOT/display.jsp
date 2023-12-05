@@ -9,7 +9,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Hien Thi</title>
     <title>Show book list</title>
     <style>
@@ -41,22 +42,28 @@
             <td><c:out value="${book.pageSize}"/></td>
             <td><c:out value="${book.author}"/></td>
             <td><c:out value="${book.category}"/></td>
-            <td><a href="" onclick="showMessage (${book.id})">Delete</a></td>
-            <td><a href="/product?action=getproductbyid&id=${book.id}">Update</a></td>
+            <td><a href="#" onclick="showMessage (${book.id})">Delete</a></td>
+            <td><a href="/book?action=findById&id=${book.id}">Update</a></td>
+
 
         </tr>
     </c:forEach>
     </tbody>
     <a href="/book?action=showformcreate">Add a book</a>
+    <form action="/book?action=search" method="post">
+        <lable>Search by tile</lable>
+        <input type="text" name="search">
+        <button type="submit">Search</button>
+    </form>
 
 
 </table>
 </body>
 <script>
-    function showMessage(id){
-        let option = confirm('Are you sure to delete ?')
-        if(option === true){
-            window.location.href ='/book?action=delete'+id;
+    function showMessage(id) {
+        let option = confirm('Are you sure to delete ?');
+        if (option === true) {
+            window.location.href = '/book?action=delete&id=' + id;
         }
     }
 </script>

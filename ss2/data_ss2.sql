@@ -1,4 +1,4 @@
-create database ss2;
+	create database ss2;
 
 use ss2;
 

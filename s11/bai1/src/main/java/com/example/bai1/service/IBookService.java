@@ -9,11 +9,11 @@ public interface IBookService {
 
     void addBook(Book book);
 
-    void updateBook(Book book);
-
     void removeBook(int id);
 
     List<Book> searchBook(String tile);
 
     Book findById(int id);
+
+    void updateBook(int id,String name, int price, String description, String supplier);
 }

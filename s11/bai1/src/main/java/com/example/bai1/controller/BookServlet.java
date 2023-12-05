@@ -32,10 +32,27 @@ public class BookServlet extends HttpServlet {
             case "delete":
                 remove(request,response);
                 break;
+            case "findById":
+                findById(request,response);
+                break;
             default:
                 display(request, response);
         }
 
+
+    }
+
+    private void findById(HttpServletRequest request, HttpServletResponse response) {
+        int id = Integer.parseInt(request.getParameter("id"));
+        Book book = iBookService.findById(id);
+        request.setAttribute("book",book);
+        try{
+            request.getRequestDispatcher("update.jsp").forward(request,response);
+        } catch (ServletException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 
@@ -78,7 +95,36 @@ public class BookServlet extends HttpServlet {
             case "create":
                 create(request, response);
                 break;
+            case "update":
+                update(request,response);
+//            case "search":
+//                search(request,response);
 
+        }
+    }
+
+//    private void search(HttpServletRequest request, HttpServletResponse response) {
+//        String tile = request.getParameter("tile");
+//        List<Book> bookList = iBookService.searchBook(tile);
+//        try {
+//            request.setAttribute("bookList", bookList);
+//            request.getRequestDispatcher("search.jsp").forward(request, response);
+//        } catch (ServletException | IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
+
+    private void update(HttpServletRequest request, HttpServletResponse response) {
+        int id = Integer.parseInt(request.getParameter("id"));
+        String name = request.getParameter("tile");
+        int price = Integer.parseInt(request.getParameter("pageSize"));
+        String description = request.getParameter("author");
+        String supplier = request.getParameter("category");
+        iBookService.updateBook(id,name,price,description,supplier);
+        try {
+            response.sendRedirect("/book");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 

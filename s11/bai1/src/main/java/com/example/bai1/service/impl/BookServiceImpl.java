@@ -20,10 +20,6 @@ public class BookServiceImpl implements IBookService {
         iBookRepo.addBook(book);
     }
 
-    @Override
-    public void updateBook(Book book) {
-        iBookRepo.updateBook(book);
-    }
 
     @Override
     public void removeBook(int id) {
@@ -38,5 +34,11 @@ public class BookServiceImpl implements IBookService {
     @Override
     public Book findById(int id) {
         return iBookRepo.findById(id);
+    }
+
+    @Override
+    public void updateBook(int id,String tile, int pageSize, String author, String category) {
+        iBookRepo.updateBook(id ,tile,pageSize,author,category);
+
     }
 }
