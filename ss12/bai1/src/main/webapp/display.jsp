@@ -27,6 +27,7 @@
                 <td>${b.bookPageSize}</td>
                 <td>${b.author.authorName}</td>
                 <td>${b.category.categoryName}</td>
+
                 <td><a class="btn btn-outline-warning" href="/book?action=update&id=${b.id}">Sửa</a></td>
                 <td> <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal"
                              data-bs-target="#exampleModal"

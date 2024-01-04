@@ -5,23 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2ec48b1-adf5-477d-b916-e1fafb2fc4b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/java/com/example/bai1/controller/BookServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/java/com/example/bai1/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/java/com/example/bai1/repo/IBookRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/java/com/example/bai1/repo/impl/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/java/com/example/bai1/repo/impl/BookRepoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/java/com/example/bai1/service/IBookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/java/com/example/bai1/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s11/bai1/src/main/webapp/display.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/bai1/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10/bai1/src/main/java/com/example/bai1/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/Gradle___com_example___bai1_1_0_SNAPSHOT_war/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/Gradle___com_example___bai1_1_0_SNAPSHOT_war/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/succes.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/bai1/src/main/java/com/example/bai1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/bai1/src/main/java/com/example/bai1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10/bai1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ss10/bai1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/controller/HistoryRentalServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/controller/MayChuaThueServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/controller/MayDangThueServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/controller/MayTinhServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/BangSuDung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/DichVuDiKem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/LoaiDichVu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/MayTinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/SuDungChiTiet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/TaiKhoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/TinhTrang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/model/TinhTrangChiTiet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/repository/DichVuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/repository/MayTinhRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/repository/TaikhoanRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/repository/impl/IDichVuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/repository/impl/IMayTinhRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/repository/impl/ITaikhoanRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/service/DichVuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/service/MayTinhService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/service/TaiKhoanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/service/impl/IDichVuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/service/impl/IMayTinhService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/java/com/example/demo/service/impl/ITaiKhoanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/detailusing.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/dichVuDaDung.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/historyRental.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/mayChuaThue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/mayDangThue.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/src/main/webapp/View/orderFood.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/controller/BookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/model/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/repo/BaseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/repo/IAuthorRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/repo/IBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/repo/ICategoryRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/repo/impl/AuthorRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/repo/impl/BookRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/repo/impl/CategoryRepoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/service/IAuthorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/service/IBookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/service/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/service/impl/AuthorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/service/impl/BookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/WEB-INF/classes/com/example/bai1/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/display.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.83/webapps/ROOT/update.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +111,7 @@
       <workItem from="1701145501180" duration="113000" />
       <workItem from="1701240785693" duration="7113000" />
       <workItem from="1701329436229" duration="545000" />
+      <workItem from="1702045084689" duration="599000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,7 @@ public class BookRepoImpl implements IBook {
             "left join category c \n" +
             "on c.category_id = b.category_id\n" + " WHERE books_id = ? ";
     private static final String INSER_INTO_BOOK = " INSERT INTO books(books_tile,books_page_size,category_id,authors_id) values(?,?,?,?);";
-    private static final String DELETE_BOOK = "DELETE FROM books" + " WHERE books_id = ?";
+        private static final String DELETE_BOOK = "DELETE FROM books" + " WHERE books_id = ?";
     private static final String UPDATE = "UPDATE books" +
             " SET books_tile = ?, \n" +
             " books_page_size = ?, \n" +
